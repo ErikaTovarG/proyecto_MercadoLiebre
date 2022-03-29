@@ -1,0 +1,154 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-color: #ebebeb;
+  font-family: "Roboto";
+  font-size: 12px;
+}
+.header-main {
+  background-color: #eac926;
+  padding: 20px;
+}
+.header-main-block-one {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-main-logo {
+  width: 50%;
+}
+.header-main-cuotas {
+  text-align: center;
+  padding: 1rem;
+}
+.header-main-search {
+  width: 50%;
+  position: relative;
+  margin-left: 1rem;
+}
+.search input {
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  padding: 0.5rem;
+}
+.icono-buscar {
+  position: absolute;
+  right: 2%;
+  color: #666;
+  z-index: 2;
+  top: 32.5%;
+}
+h3 {
+  font-size: 18px;
+  font-weight: 300;
+}
+.navbar {
+  display: none;
+}
+.burger-menu {
+  background-color: #03264c;
+  font-size: 18px;
+  text-align: center;
+  color: white;
+  max-width: 50px;
+  padding: 12px 0;
+  border-radius: 10px;
+  margin: auto;
+  display: block;
+}
+
+/*Banner*/
+.banner img {
+  width: 100%;
+}
+/*main*/
+main {
+  padding: 20px;
+}
+.seccion1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.seccion2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+article {
+  padding-bottom: 10px;
+}
+.caja-general {
+  background-color: #fff;
+  margin: 0.8rem;
+  box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+.caja-general img {
+  width: 100%;
+}
+.caja-dentro {
+  border-top: solid 1px #ebebeb;
+  background-color: #fff;
+  width: 90%;
+}
+.img-carrito {
+  color: #39b54a;
+  display: inline;
+  border-radius: 50%;
+  padding: 5px;
+  border: solid 1px #39b54a;
+}
+.descripciones {
+  display: none;
+}
+
+/*Footer*/
+
+footer {
+  padding: 20px;
+}
+footer h1 {
+  font-size: 18px;
+  text-align: center;
+}
+
+footer p {
+  text-align: center;
+}
+
+footer div.parrafos {
+  margin-bottom: 1.8rem;
+  margin-top: 1.8rem;
+}
+
+.copyright {
+  font-size: 12px;
+  font-weight: 100;
+  text-align: left;
+  margin-top: 10px;
+}
+
+.iconosFooter {
+  position: relative;
+  font-size: 2rem;
+  text-align: center;
+  color: #1259c3;
+}
+@media {
+  .navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .navbar a {
+    text-decoration: none;
+    color: #666;
+    display: inline-block;
+    padding: 5px 0;
+  }
+}
