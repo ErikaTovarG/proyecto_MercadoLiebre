@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400&family=Roboto&family=Roboto+Mono:wght@200&family=Work+Sans:wght@200&display=swap");
 * {
   box-sizing: border-box;
   margin: 0px;
@@ -91,6 +92,11 @@ article {
   border-top: solid 1px #ebebeb;
   background-color: #fff;
   width: 90%;
+  position: relative;
+  padding: 1rem;
+}
+.img-carrito i {
+  font-size: 1rem;
 }
 .img-carrito {
   color: #39b54a;
@@ -98,11 +104,23 @@ article {
   border-radius: 50%;
   padding: 5px;
   border: solid 1px #39b54a;
+  position: absolute;
+  right: 1%;
+  top: -20%;
 }
 .descripciones {
   display: none;
 }
-
+.precios {
+  display: inline;
+  font-size: 1.3rem;
+}
+.descuentos {
+  color: #39b54a;
+  font-size: 1.2rem;
+  display: inline;
+  margin-left: 0.5rem;
+}
 /*Footer*/
 
 footer {
@@ -168,8 +186,8 @@ footer div.parrafos {
   .navbar a {
     text-decoration: none;
     color: #666;
-    padding: 1.2rem;
-    font-size: 16px;
+    padding: 1rem;
+    font-size: 12px;
   }
   section {
     display: flex;
