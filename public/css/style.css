@@ -125,34 +125,45 @@ article {
 
 footer {
   padding: 20px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  width: 100%;
 }
 footer h1 {
   font-size: 18px;
   text-align: center;
+  color: #666;
+  margin-bottom: 0.8rem;
 }
-
 footer p {
   text-align: center;
 }
-
 footer div.parrafos {
   margin-bottom: 1.8rem;
   margin-top: 1.8rem;
 }
-
 .copyright {
   font-size: 12px;
   font-weight: 100;
   text-align: left;
   margin-top: 10px;
 }
-
-.iconosFooter {
+.iconosFooter i {
   position: relative;
   font-size: 2rem;
-  text-align: center;
   color: #1259c3;
+  margin-bottom: 1rem;
 }
+.iconosFooter {
+  margin: 1rem;
+  text-align: center;
+}
+
 @media (min-width: 769px) {
   .header-main-block {
     display: flex;
@@ -213,5 +224,12 @@ footer div.parrafos {
   }
   .caja-general {
     margin: 1.5rem;
+  }
+  .parrafos {
+    display: flex;
+    flex-direction: row;
+  }
+  .iconosFooter {
+    width: 30%;
   }
 }
